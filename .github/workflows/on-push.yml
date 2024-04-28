@@ -1,0 +1,10 @@
+on: push
+jobs:
+  echo-thing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        # run: echo "This step will be skipped on Monday and Wednesday"
+      - name: Now echo
+        run: echo "This step will always run"
