@@ -8,4 +8,4 @@ jobs:
         # run: echo "This step will be skipped on Monday and Wednesday"
       - name: Now echo
         run: echo "This step will always run"
-      - run: cat hello.txt | echo
+      - run: cat hello.txt
